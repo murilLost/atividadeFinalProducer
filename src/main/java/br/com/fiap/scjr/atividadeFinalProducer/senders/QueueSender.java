@@ -1,4 +1,4 @@
-package br.com.fiap.scjr.rabbitProducer.senders;
+package br.com.fiap.scjr.atividadeFinalProducer.senders;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -15,6 +15,7 @@ public class QueueSender {
     private Queue queue;
 
     public void send(String mensagem){
-        rabbitTemplate.convertAndSend(this.queue.getName(), mensagem);
+        rabbitTemplate.convertAndSend(queue.getName(), mensagem);
     }
+
 }

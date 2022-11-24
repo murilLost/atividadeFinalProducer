@@ -1,6 +1,7 @@
 spring:
   rabbitmq:
-    addresses: 
+    addresses:
 
 queue:
-  fiap: fiap.1scjr.drone
+  fiap:
+    nome: fiap.1scjr.drone
