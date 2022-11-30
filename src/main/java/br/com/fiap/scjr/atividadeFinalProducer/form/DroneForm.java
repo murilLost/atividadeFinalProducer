@@ -10,30 +10,30 @@ import javax.validation.constraints.NotNull;
 @Setter
 public class DroneForm {
 
-    @NotNull
+    @NotNull(message = "idDrone nao pode ser nulo")
     private Integer idDrone;
 
-    @NotNull
-    @Min(-90)
-    @Max(90)
+    @NotNull(message = "latitude nao pode ser nula")
+    @Min(value = -90, message = "latitude minima de -90")
+    @Max(value = 90, message = "latidude maxima de 90")
     private Integer latitude;
 
-    @NotNull
-    @Min(-180)
-    @Max(180)
+    @NotNull(message = "longitute nao pode ser nula")
+    @Min(value = -180, message = "longitude minima de -180")
+    @Max(value = 180, message = "longitude maxima de 180")
     private Integer longitude;
 
-    @NotNull
-    @Min(-25)
-    @Max(40)
+    @NotNull(message = "temperatura nao pode ser nula")
+    @Min(value = -25, message = "temperatura minima de -25")
+    @Max(value = 40, message = "temperatura maxima de 40")
     private Integer temperatura;
 
-    @NotNull
-    @Min(0)
-    @Max(100)
+    @NotNull(message = "umidade nao pode ser nula")
+    @Min(value = 0, message = "umidade minima de 0")
+    @Max(value = 100, message = "umidade maxima de 100")
     private Integer umidade;
 
-    @NotNull
+    @NotNull(message = "rastreamento nao pode ser nulo")
     private Boolean rastreamento;
     
 }
