@@ -15,4 +15,5 @@ public class QueueConfiguration {
     public Queue queue(){
         return new Queue(name, true);
     }
+
 }
