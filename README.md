@@ -27,7 +27,7 @@ Para a execução do projeto, irei listar abaixo o passo a passo das configuraç
   <li>Fazer uma request do tipo POST para a URI: http://localhost:8080/drone, com os seguinte body: {"idDrone":1,"latitude":90,"longitude":-180,"temperatura":40,"umidade":20,"rastreamento":true}</li>
 </ol>  
   
-Para acessar o console do RabbitMQ e visualizar a sua Queue(fila), basta ir na instância criada no CloudAMQP e clicar na opção "RabbitMQ Manager", que irá te enviar para outra aba, onde poderá gerenciar e visualizar as Queues, Exchanges, Binds, etc.
+Para acessar o console do RabbitMQ e visualizar a sua Queue(fila), basta ir na instância criada no CloudAMQP e clicar na opção "RabbitMQ Manager", que irá te enviar para outra aba, onde poderá gerenciar e visualizar as Queues, Exchanges, Bindings, etc.
   
   
 Imagens do funcionamento da aplicação:  
