@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    addresses:
+    addresses: <digite-aqui-a-URL>
 
 queue:
   fiap:
