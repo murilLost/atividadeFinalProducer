@@ -24,3 +24,10 @@ Para a execução do projeto, irei listar abaixo o passo a passo das configuraç
   <li>colar a URL configurada na Instância, no campo addresses, substituindo o texto "<digite-aqui-a-URL>" pela URL copiada.</li>
   <li>Pronto, o projeto está pronto para ser executado.</li>
 </ol>
+  
+  
+Imagens do funcionamento da aplicação:  
+![falha-validacao](https://user-images.githubusercontent.com/63795081/205514624-50f5a908-9d9a-4974-9285-b712d99de581.JPG)
+![sucesso-postman](https://user-images.githubusercontent.com/63795081/205514638-6aa93304-8129-41e6-9ef0-b264f2363e84.JPG)
+![console-Intellij](https://user-images.githubusercontent.com/63795081/205514639-3e8f11e5-5d1a-4b92-a654-9b73ac808e91.JPG)
+![queue](https://user-images.githubusercontent.com/63795081/205514641-271c3776-9223-4be0-80e9-c0d131ceb284.JPG)
