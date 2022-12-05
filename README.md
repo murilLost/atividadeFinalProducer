@@ -47,7 +47,7 @@ git clone https://github.com/murilLost/atividadeFinalProducer.git
   <li>Abrir o projeto no Intellij IDE, e builda-lo com Gradle.</li>
   <li>Utilizei o JDK 17 no projeto, sugiro utilizar o mesmo.</li>
   <li>Ir no arquivo application.yml, presente no caminho: src/main/resources</li>
-  <li>colar a URL configurada na Instância, no campo addresses, substituindo o texto <digite-aqui-a-URL> pela URL copiada.</li>
+  <li>colar a URL configurada na Instância, no campo addresses, substituindo o texto "\<digite-aqui-a-URL\>" pela URL copiada.</li>
   <li>Pronto, o projeto está pronto para ser executado; execute-o.</li>
   <li>Baixar e instalar qualquer programa que faça chamadas Rest, uma opção é o Postman, link: https://www.postman.com/</li>
   <li>Fazer uma request do tipo POST para a URI: http://localhost:8080/drone, com os seguinte body: {"idDrone":1,"latitude":90,"longitude":-180,"temperatura":40,"umidade":20,"rastreamento":true}</li>
