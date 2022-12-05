@@ -1,15 +1,39 @@
-# atividadeFinalProducer  
-Projeto de Rabbit producer para atividade de Integration and Development Tools
+# FIAP - INTEGRATIONS & DEVELOPMENT TOOLS
+## 1SCJR - Drone-Application
+Prof: Rafael Thomazeli Mazzucato
 
-Desenvolvido por:
-<ul>
-  <li>Murillo Lopes Fernandes</li>
-  <li>Eduardo Freire Cotrim</li>
-  <li>Ana Carolina Alves Cola</li>
-  <li>Marco Antonio da Paz Couzin</li>
-</ul>
+-Desenvolvido por:
+Murillo Lopes Fernandes
+Eduardo Freire Cotrim
+Ana Carolina Alves Cola
+Marco Antonio da Paz Couzin
 
-Para a execução do projeto, irei listar abaixo o passo a passo das configurações necessárias.  
+Solução para o agronegócio que coleta dados via sensores de temperatura e umidade. Esses sensores ficarão instalados em um drone com uma altíssima autonomia
+de energia, pois conta com pequenos, porém muito eficientes painéis fotovoltaicos.
+
+## Executando o projeto
+
+
+### 1 - Download do projeto no github:
+
+```
+Producer
+git clone https://github.com/murilLost/atividadeFinalProducer.git
+```
+
+##  Pré-requisitos para execução do projeto
+
+- Tecnologias necessárias.
+
+  1- Para executar o projeto é necessário ter instalado Java SE Development Kit versão 17.
+
+  2- Utilizar Intellij IDE para execução.
+
+  3- Gradle
+
+  4- Postman
+
+### 2 - Subindo o "Consumer" 
 
 <ol>
   <li>Criar uma conta no CloudAMQP, link https://customer.cloudamqp.com/.</li>
@@ -30,7 +54,7 @@ Para a execução do projeto, irei listar abaixo o passo a passo das configuraç
 Para acessar o console do RabbitMQ e visualizar a sua Queue(fila), basta ir na instância criada no CloudAMQP e clicar na opção "RabbitMQ Manager", que irá te enviar para outra aba, onde poderá gerenciar e visualizar as Queues, Exchanges, Bindings, etc.
   
   
-Imagens do funcionamento da aplicação:  
+### 3 - Prints 
 ![falha-validacao](https://user-images.githubusercontent.com/63795081/205514624-50f5a908-9d9a-4974-9285-b712d99de581.JPG)
 ![sucesso-postman](https://user-images.githubusercontent.com/63795081/205514638-6aa93304-8129-41e6-9ef0-b264f2363e84.JPG)
 ![console-Intellij](https://user-images.githubusercontent.com/63795081/205514639-3e8f11e5-5d1a-4b92-a654-9b73ac808e91.JPG)
